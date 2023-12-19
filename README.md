@@ -2,8 +2,10 @@
 
 This README file how to use our self-supervised model and how to reproduce our result
 
-## use our model directly through colab
+# use our model directly through colab
 The gec.ipynb provides a user friendly colab version of use our SFT llama2 GEC models.
+
+# reproduce paper result
 
 ## Setting Up the Environment
 
@@ -22,9 +24,8 @@ source llama2_env/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 ```
-## pprepare data
+## prepare data
 download the file from https://drive.google.com/file/d/1GrGif8EHg8vCxOb0M7DC3VOECHv7SkdB/view?usp=drive_link
-run
 ```python
 prepare_rlhfdataset.py
 preparesft_dataset.py
