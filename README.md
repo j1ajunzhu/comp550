@@ -22,7 +22,13 @@ source llama2_env/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 ```
-
+## pprepare data
+download the file from https://drive.google.com/file/d/1GrGif8EHg8vCxOb0M7DC3VOECHv7SkdB/view?usp=drive_link
+run
+```python
+prepare_rlhfdataset.py
+preparesft_dataset.py
+```
 ## Training the SFT Model
 
 To train the model for a grammar correction task, execute the following command:
