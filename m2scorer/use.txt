@@ -1,0 +1,1 @@
+python m2scorer /app/m2scorer/test/llama27b.txt /app/m2scorer/test/conll14st-test.m2
